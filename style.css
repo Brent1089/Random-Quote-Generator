@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
+
+#quoteBox {
+  background-color: rgba(245, 245, 245, 0.4);
+  margin-top: 60px;
+  text-align: center;
+  width: 450px;
+}
+
+#quoteWell {
+  background-color: rgba(245, 245, 245, 0.8);
+  width: 300 px;
+}
+
+#quoteAuth {
+  text-align: right;
+  margin-right 25px;
+}
+
+#titleText {
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: karla;
+}
+
+.btn {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.btn-sharp {
+  border-radius:0;
+}
+
+#buttons {
+  display: flex;
+    align-items: right;
+  justify-content: right;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
